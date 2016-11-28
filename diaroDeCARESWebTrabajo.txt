@@ -1,0 +1,105 @@
+CARES Web Trabajo
+
+Installing WP
+Installing MariaDB:
+root password: facil[]
+Install as service: MySQL
+TCP port 3306
+- https://mariadb.com/blog/how-install-and-run-wordpress-mariadb
+
+C:\Program Fiels\MariaDB 10.1\bin\mysql.exe
+
+https://codex.wordpress.org/Installing_WordPress#Using_the_MySQL_Client
+CREATE DATABASE wordpress;
+GRANT ALL PRIVILEGES ON wordpress.* TO "wordpress1"@"localhost"
+    -> IDENTIFIED BY "facil17";
+FLUSH PRIVILEGES;
+EXIT
+
+show databases;
+
+
+http://localhost:8080/env - failed
+
+http://localhost/wordpress/prueba1.php
+http://localhost/wordpress/wp-admin/install.php
+cwneill
+masFacil[]
+WordPress has been installed. Thank you, and enjoy!
+
+Hacer:
+- get the database set up
+- basic form...
+- table for phone log
+- tabs example
+- check the version of jquery
+Preguntas para R
+- Autocomplete for finding a user?
+
+------------------------------------------------------------------------------
+28 de noviembre, 2016
+lunes
+
+Bootstrap Form Controls:
+http://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp
+
+Address
+City
+State
+Zip
+Phone
+
+------------------------------------------------------------------------------
+23 de noviembre, 2016
+miercoles
+Cerrando en 3:00PM
+
+error_log(print_r($results,true));
+
+function newDoc() {
+    window.location.assign("http://www.w3schools.com")
+}
+
+Nice example of 3 column bootstrap form
+
+------------------------------------------------------------------------------
+21 de noviembre, 2016
+lunes
+
+Scrolling and bootstrap tabs:
+https://datatables.net/examples/api/tabs_and_scrolling.html
+
+JQuery has tabs!
+
+https://datatables.net/extensions/select/examples/api/events.html
+
+http://localhost/php-crud/dataTablesPrueba.php
+
+------------------------------------------------------------------------------
+18 de noviembre, 2016
+viernes
+
+jqueryui
+
+https://jqueryui.com/tabs/
+
+
+
+
+-------------------------------------------------------------------
+CRUD example
+
+
+http://localhost/php-crud/
+
+CREATE TABLE  `test`.`users` (
+`id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`first_name` VARCHAR( 40 ) NOT NULL ,
+`last_name` VARCHAR( 40 ) NOT NULL ,
+`email` VARCHAR( 50 ) NOT NULL
+) ENGINE = MYISAM ;
+
+Using heidi to do sql commands
+
+http://www.itechempires.com/2016/03/php-mysql-crud-create-read-update-delete-operations-using-jquery/
+
